@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carson Ru — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Carson Ru — personal site" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Carson Ru</h1>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <h2>Hi — I'm Carson.</h2>
+      <p>A simple, fast personal website. I build things, learn, and share projects.</p>
+      <p class="actions">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </p>
+    </section>
+
+    <section id="about" class="container card">
+      <h3>About</h3>
+      <p>Short biography or tagline — replace this with a sentence or two about you: what you do, technologies you like, or what you're learning.</p>
+    </section>
+
+    <section id="projects" class="container">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="project">
+          <h4>Project One</h4>
+          <p>Short description. Link to repo or demo.</p>
+          <p><a href="#" class="small-link">View</a></p>
+        </article>
+
+        <article class="project">
+          <h4>Project Two</h4>
+          <p>Short description. Link to repo or demo.</p>
+          <p><a href="#" class="small-link">View</a></p>
+        </article>
+
+        <article class="project">
+          <h4>Project Three</h4>
+          <p>Short description. Link to repo or demo.</p>
+          <p><a href="#" class="small-link">View</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container card">
+      <h3>Contact</h3>
+      <p>If you want to reach me, email: <a href="mailto:hello@example.com">hello@example.com</a> — or link your GitHub/LinkedIn here.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Carson Ru — <a href="https://github.com/CarsonRu/carsonru.github.io" target="_blank" rel="noopener">GitHub</a></small>
+    </div>
+  </footer>
+
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
